@@ -29,9 +29,11 @@ const LoginForm = ({ Login, error }) => {
             }
             values={details.password}
           ></input>
-          <button type="submit" value="LOGIN">
-            Login
-          </button>
+          <div className="login_button">
+            <button type="submit" value="LOGIN">
+              Login
+            </button>
+          </div>
         </div>
       </form>
     </div>
