@@ -8,6 +8,7 @@
   }
   
   .new-user-input input {
+    display: flex;
     padding: 0.5rem;
     border-radius: 6px;
     border: 1px solid #ccc;
@@ -15,7 +16,7 @@
     max-width: 100%;
     vertical-align: bottom;
     position: relative;
-    top: -1px;
+    /* top: -1px; */
     overflow: hidden;
   }
   

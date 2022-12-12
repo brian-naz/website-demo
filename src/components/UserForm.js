@@ -61,13 +61,13 @@ const UserForm = (props) => {
       });
       return;
     }
-    if (enteredUserName === newUser.enteredUserName) {
-      setError({
-        title: "Username already exists",
-        message: "This username is already taken",
-      });
-      return;
-    }
+    // if (enteredUserName === newUser.name) {
+    //   setError({
+    //     title: "Username already exists",
+    //     message: "This username is already taken",
+    //   });
+    //   return;
+    // }
     props.onSave(newUser);
     setUserName("");
     setPassword("");
@@ -84,11 +84,7 @@ const UserForm = (props) => {
         <ul>
           <li>
             <label>
-              <input
-                type="checkbox"
-                value="Yes"
-                onChange={permissionHandler}
-              />
+              <input type="checkbox" value="Yes" onChange={permissionHandler} />
               Permissions
             </label>
           </li>
@@ -114,11 +110,7 @@ const UserForm = (props) => {
           </li>
           <li>
             <label>
-              <input
-                type="checkbox"
-                value="Yes"
-                onChange={accessHandler}
-              />
+              <input type="checkbox" value="Yes" onChange={accessHandler} />
               Access Rights
             </label>
           </li>

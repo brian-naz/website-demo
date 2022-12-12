@@ -1,54 +1,70 @@
 .list {
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: rgb(31, 31, 31);
+  text-align: left;
+  padding: 1rem;
+  border-radius: 12px;
+  margin: auto;
+  width: 44rem;
+  max-width: 100%;
+}
+
+input {
+  overflow: hidden;
+  display: flex;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: rgb(31, 31, 31);
+  margin: 2rem auto;
+  width: 35rem;
+  max-width: 90%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid rgb(1, 1, 1);
+}
+
+.list button {
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(156, 2, 2);
+  background-color: rgb(156, 2, 2);
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+}
+
+.list button:hover,
+.list button:active {
+  background-color: rgb(255, 65, 65);
+}
+
+.list button.alternative {
+  color: rgb(77, 0, 0);
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.list button.alternative:hover,
+.list button.alternative:active {
+  background-color: rgb(31, 31, 31);
+}
+
+.main button {
+    text-align: center;
     overflow: hidden;
-    font-family: Arial, sans-serif;
-    color: white;
-    background-color: rgb(31, 31, 31);
-    text-align: left;
-    padding: 1rem;
-    border-radius: 12px;
-    margin: auto;
-    width: 30rem;
-    max-width: 90%;
-  }
-  
-  input {
-    overflow: hidden;
-    display: flex;
-    font-family: Arial, sans-serif;
-    color: white;
-    background-color: rgb(31, 31, 31);
-    margin: 2rem auto;
-    width: 35rem;
-    max-width: 90%;
-    padding: 0.5rem;
-    border-radius: 6px;
-    border: 1px solid rgb(1, 1, 1);
-  }
-  
-  .list button {
+    font: inherit;
     cursor: pointer;
-    display: flex;
-    font-size: 1rem;
+    padding: 1rem 2rem;
+    background-color: rgb(0, 110, 255);
     color: white;
-    background-color: rgb(156, 2, 2);
-    background-color: rgb(156, 2, 2);
-    padding: 0.75rem 1rem;
     border-radius: 12px;
-  }
-  
-  .list button:hover,
-  .list button:active {
-    background-color: rgb(255, 65, 65);
-  }
-  
-  .list button.alternative {
-    color: rgb(77, 0, 0);
-    border-color: transparent;
-    background-color: transparent;
-  }
-  
-  .list button.alternative:hover,
-  .list button.alternative:active {
-    background-color: rgb(31, 31, 31);
-  }
-  
+    margin-right: 1rem;
+}
+
+.main button:hover,
+.main button:active {
+  background-color: rgb(65, 147, 255);
+}
