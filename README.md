@@ -22,3 +22,5 @@ If I had more time, here are some more additions I could've added:
 -Logging with the API would also make it more secure than simply hardcoding the users inside the .js file
 
 -An upload feature. This was nearly done but my PC was not able to install axios which is what I needed for uploading files locally in React
+
+-A real use of the permissions that the admin can give. Such as allowing the user to create lists, upload. Or give lower-level admins access.
