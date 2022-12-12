@@ -102,7 +102,7 @@ function App() {
   const renderFullTable = () => {
     return (
       <div>
-        <div className="list">
+        <div className="fulllist">
           <div>
             <table>
               <thead>
@@ -210,7 +210,7 @@ function App() {
             />
           </div>
           {loginUser.name === adminUser.username ? (
-            <div>{renderFullTable()} {<Upload />}</div>
+            <div>{renderFullTable()}</div>
           ) : (
             <div>{renderTable()}</div>
           )}

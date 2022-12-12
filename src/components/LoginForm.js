@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./LoginForm.css";
-import Box from "./Box";
 
 const LoginForm = ({ Login, error }) => {
   const [details, setDetails] = useState({ username: "", password: "" });

@@ -11,6 +11,19 @@
   max-width: 100%;
 }
 
+.fulllist {
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: rgb(31, 31, 31);
+  text-align: left;
+  padding: 1rem;
+  border-radius: 12px;
+  margin: auto;
+  width: 44rem;
+  max-width: 100%;
+}
+
 input {
   overflow: hidden;
   display: flex;
@@ -25,7 +38,7 @@ input {
   border: 1px solid rgb(1, 1, 1);
 }
 
-.list button {
+.fulllist button {
   cursor: pointer;
   display: flex;
   font-size: 1rem;
@@ -36,19 +49,19 @@ input {
   border-radius: 12px;
 }
 
-.list button:hover,
-.list button:active {
+.fulllist button:hover,
+.fulllist button:active {
   background-color: rgb(255, 65, 65);
 }
 
-.list button.alternative {
+.fulllist button.alternative {
   color: rgb(77, 0, 0);
   border-color: transparent;
   background-color: transparent;
 }
 
-.list button.alternative:hover,
-.list button.alternative:active {
+.fulllist button.alternative:hover,
+.fulllist button.alternative:active {
   background-color: rgb(31, 31, 31);
 }
 
