@@ -6,6 +6,7 @@ You can then view the existing users, their passwords, and check which user has 
 The second view is upon succsessful login of the user credentials, where all they can do is view the existing users and not be able to view who has what permission or other user's passwords.
 
 Bugs:
+
 -Alignment in the User Creation form in the Admin View
 -User and Admin credentials are fixed. They are not connected to the other users/admins we can create in the admin view and you cannot login with the other account usernames and password.
 
